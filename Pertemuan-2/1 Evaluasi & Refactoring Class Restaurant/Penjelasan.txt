@@ -1,0 +1,17 @@
+Restaurant.java dan RestaurantMain.java adalah program file yang berfungsi sebagai bahan untuk analisis desain class.
+berikut adalah hal-hal yang dianalisis:
+    1.	Apakah class Restaurant sudah menerapkan Encapsulation dengan benar? Anda dapat mengacu pada Buku Ajar Tekpro (Teori) - Chapter 2.4
+        Enkapsulasi (Lihat di Buku Acuan pada Google Classroom) atau Buku Java Core Design Hint Chapter 4.10.
+    2.  Apakah attribute yang diterapkan saat ini aman dari akses secara langsung?
+    3.  Apakah terdapat pelanggaran prinsip OOP (misalnya public attribute)?
+
+
+Setelah itu, file program Warteg.java dan WartegMain.java merupakan perbaikan dari kedua file di atas 
+dan menjadi wadah eksplorasi sesuai dengan beberapa instruksi yang diberikan, yaitu:
+    1.	Semua attribute harus bersifat private
+    2.	Akses data dilakukan melalui getter dan setter
+    3.	Validasi stok (stok tidak boleh negatif)
+    4.	Pengembangan Fitur (Mini Case) Tambahkan fitur berikut:
+        a)	Pemesanan menu
+        b)	Stok otomatis berkurang setelah pemesanan
+        c)	Pesan ditolak jika stok tidak mencukupi
